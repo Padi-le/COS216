@@ -48,7 +48,7 @@ public class EmployeesPge extends javax.swing.JFrame {
                 });
             }
 
-            employeeTable.setModel(model); // 👈 This is the JTable you dropped
+            employeeTable.setModel(model); // This is the JTable you dropped
 
             conn.close();
         } catch (Exception e) {
