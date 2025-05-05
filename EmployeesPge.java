@@ -26,6 +26,7 @@ public class EmployeesPge extends javax.swing.JFrame {
     }
 
     private void loadEmployees() {
+        System.out.println("HI there");
         try {
             Connection conn = Connector.getConnection();
             Statement stmt = conn.createStatement();
